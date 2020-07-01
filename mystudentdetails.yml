@@ -1,0 +1,25 @@
+---
+studentdetails:
+   - name: bala
+     phone: 999999999
+     course: devops
+     address:
+       - doorno: 236
+         street: 1st
+         pin: 500002
+
+   - name: suresh
+     phone: 9999988888
+     course: devops
+     address:
+        - doorno: 237
+          street: 1st
+          pin: 500002
+
+   - name: vinod
+     phone: 9999966666
+     course: devops
+     address:
+       - doorno: 238
+         street: 1st
+         pin: 500002
