@@ -1,12 +1,12 @@
 ---
 - hosts: all
   become: yes
-  gather_facts: no
+  gather_facts: yes 
   tasks:
   - name: i want to install webserver on ubuntu16
     apt:
       name: apache2
-      state: present
+      state: absent
   - name: i want to start my webserver services
     service:
       name: apache2
