@@ -1,0 +1,8 @@
+---
+- hosts: 172.31.1.193
+  become: yes
+  tasks:
+  - name: i want to install git on redhot
+    yum:
+      name: git
+      state: present
