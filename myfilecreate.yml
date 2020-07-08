@@ -1,5 +1,7 @@
 ---
-- name: i want to create file in on nodes
-  file:
-  path: /home/obuntu/mytextfile
-  state: touch 
+
+
+  - name: i want to create file in on nodes
+    file:
+    path: /home/ubuntu/mytextfile
+    state: touch 
