@@ -1,0 +1,7 @@
+---
+- hosts: ubuntu
+  become: yes
+  tasks:
+  - name: i wan to execute linux commends 
+    command:  hostname -f
+    
