@@ -8,8 +8,8 @@
 
   - name: 2nd install tree
     apt:
-     name: tree 
-    ignore_errors: yes 
+     nameeee: tree 
+    
 
   - name: 3rd install wget
     apt:
