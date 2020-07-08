@@ -4,4 +4,8 @@
   tasks:
   - name: i wan to execute linux commends 
     command:  hostname -f
-    
+    register: myresult
+
+  - name: i want to display above task result
+    debug:
+      msg: "{{myresult}}" 
