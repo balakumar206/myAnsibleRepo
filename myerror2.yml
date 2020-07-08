@@ -6,7 +6,7 @@
     apt:
      name: git
 
-  - nameeee: 2nd install tree
+  - name: 2nd install tree
     apt:
      name: tree 
     ignore_errors: yes 
