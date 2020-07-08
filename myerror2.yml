@@ -4,15 +4,16 @@
   tasks:
   - name: 1st install git
     apt:
-      name: git
+     name: git
 
   - nameeee: 2nd install tree
     apt:
-      name: tree 
+     name: tree 
     ignore_errors: yes 
+
   - name: 3rd install wget
     apt:
-      name: wget 
+     name: wget 
 
   - name: 4th install apache2
     apt:
