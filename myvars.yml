@@ -12,3 +12,6 @@
   - name: i want to display mykey2
     debug:
       msg: "{{mykey2}}"  
+  - name: i want to display os
+    debug:
+      msg: "{{ansible_os_family}}"
