@@ -1,0 +1,14 @@
+---
+- hosts: ubuntu
+  become: yes
+  vars:
+    mykey1: Devops
+    mykey2: Aws
+    mykey3: Linux
+  tasks:
+  - name: i want to display mykey1
+    debug:
+      msg: "{{mykey1}}"
+  - name: i want to display mykey2
+    debug:
+      msg: "{{mykey2}}"  
