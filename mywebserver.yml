@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: ubuntu
   become: yes
   gather_facts: yes 
   tasks:
@@ -7,7 +7,14 @@
     apt:
       name: apache2
       state: present 
-  - name: i want to start my webserver services
+    notify: startwebserver
+    when: ansible_on_family =="Debian"
+
+
+
+
+  handlers:
+  - name: startwebserver
     service:
       name: apache2
-      state: restarted
+      state: started
