@@ -1,6 +1,0 @@
----
-- hosts: ubuntu 
-  become: yes
-  roles:
-    - mytom8onu16
-
