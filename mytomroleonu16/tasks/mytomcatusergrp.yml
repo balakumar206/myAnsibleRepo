@@ -10,4 +10,4 @@
     shell: /bin/false
     home: /opt/tomcat
     comment: my tom user
-  groups: tomcat 
+    groups: tomcat 
