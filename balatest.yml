@@ -1,0 +1,9 @@
+---
+- hosts: webserver
+  become: yes
+  tasks:
+
+  - name: i want install tree on ubuntu16
+    apt:
+      name: tree 
+      state: present 
