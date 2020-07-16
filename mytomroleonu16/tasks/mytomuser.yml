@@ -1,5 +1,5 @@
 ---
 - name: i want mytomuser.j2 file into my node side
   templete:
-    src: templates/myconfig.j2
+    src: templates/mytomuser.j2
     dest: /opt/tomcat/conf/tomcat-users.xml
