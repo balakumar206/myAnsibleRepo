@@ -1,0 +1,6 @@
+---
+- name: i want to deploy my java application on my tamcat server(all nodes side)
+  get_url:
+    url: https://baladevops.s3-us-west-2.amazonaws.com/mahaLogin.war
+    dest: /opt/tomcat/webapps/mahaLogin.war
+    force_basic_auth: yes
